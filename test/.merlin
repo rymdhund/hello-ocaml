@@ -1,0 +1,34 @@
+EXCLUDE_QUERY_DIR
+B /home/user/ocaml/hello-ocaml/_opam/lib/alcotest
+B /home/user/ocaml/hello-ocaml/_opam/lib/astring
+B /home/user/ocaml/hello-ocaml/_opam/lib/bytes
+B /home/user/ocaml/hello-ocaml/_opam/lib/cmdliner
+B /home/user/ocaml/hello-ocaml/_opam/lib/containers
+B /home/user/ocaml/hello-ocaml/_opam/lib/containers/monomorphic
+B /home/user/ocaml/hello-ocaml/_opam/lib/fmt
+B /home/user/ocaml/hello-ocaml/_opam/lib/ocaml
+B /home/user/ocaml/hello-ocaml/_opam/lib/ppx_deriving
+B /home/user/ocaml/hello-ocaml/_opam/lib/result
+B /home/user/ocaml/hello-ocaml/_opam/lib/seq
+B /home/user/ocaml/hello-ocaml/_opam/lib/stdlib-shims
+B /home/user/ocaml/hello-ocaml/_opam/lib/uchar
+B /home/user/ocaml/hello-ocaml/_opam/lib/uuidm
+B ../_build/default/lib/.lib.objs/byte
+B ../_build/default/test/.test.eobjs/byte
+S /home/user/ocaml/hello-ocaml/_opam/lib/alcotest
+S /home/user/ocaml/hello-ocaml/_opam/lib/astring
+S /home/user/ocaml/hello-ocaml/_opam/lib/bytes
+S /home/user/ocaml/hello-ocaml/_opam/lib/cmdliner
+S /home/user/ocaml/hello-ocaml/_opam/lib/containers
+S /home/user/ocaml/hello-ocaml/_opam/lib/containers/monomorphic
+S /home/user/ocaml/hello-ocaml/_opam/lib/fmt
+S /home/user/ocaml/hello-ocaml/_opam/lib/ocaml
+S /home/user/ocaml/hello-ocaml/_opam/lib/ppx_deriving
+S /home/user/ocaml/hello-ocaml/_opam/lib/result
+S /home/user/ocaml/hello-ocaml/_opam/lib/seq
+S /home/user/ocaml/hello-ocaml/_opam/lib/stdlib-shims
+S /home/user/ocaml/hello-ocaml/_opam/lib/uchar
+S /home/user/ocaml/hello-ocaml/_opam/lib/uuidm
+S ../lib
+S .
+FLG -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs

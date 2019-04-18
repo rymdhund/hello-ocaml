@@ -1,0 +1,28 @@
+opam-version: "2.0"
+name: "hello"
+synopsis: ""
+description: """
+
+"""
+maintainer: "email@example.com"
+authors: "email@example.com"
+license: "ISC"
+homepage: "https://github.com/rymdhund/hello-ocaml"
+bug-reports: "https://github.com/rymdhund/hello-ocaml/issues"
+
+depends: [
+  "ocaml"
+  "containers"
+  "ppx_deriving"
+  "dune" {build}
+  "alcotest" {with-test}
+]
+
+build: [
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs]
+]
+
+run-test: [
+  ["dune" "runtest" "-p" name "-j" jobs]
+]

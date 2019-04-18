@@ -1,0 +1,8 @@
+(executable
+ (name test)
+ (modules test)
+ (libraries lib alcotest))
+
+(alias
+ (name   runtest)
+ (action (run ./test.exe)))
